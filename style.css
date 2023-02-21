@@ -2,22 +2,33 @@
     /* outline: 2px solid red; */
 }
 
+@import(https://fonts.google.com/specimen/Gloock);
+
 body {
+    
     margin: 0;
+
 }
+
+li{
+    padding:20px;
+}
+
 
 .top-nav {
     background: black;
     color: white;
     text-align: right;
-    padding-right: 20px;
-    height: 12vh;
+    padding-right: 24px;
+    height: 9vh;
 }
 
 .top-nav ul {
     display: inline-flex;
     margin: 0;
+
 }
+
 
 .top-nav ul li {
     list-style: none;
@@ -35,8 +46,21 @@ body {
 .main-nav nav ul {
     display: inline-flex;
     margin: 0;
+    list-style: none;
+    
 }
 
+a{
+    font-weight:bold;
+    font-size: x-large;
+    
+}
+
+a:link{
+    text-decoration: none;
+    
+    
+}
 
 /* main section  */
 main {
@@ -45,7 +69,59 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background: #4f50ff
 }
+
+
+
+h1{
+    font-size: 68px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+
+}
+
+section p{
+    color: whitesmoke;
+    font-size: xx-large;
+    margin: 50px;
+    text-align: center;
+    
+}
+ section img {
+    width: 600px;
+    margin:10px;
+    padding: 9px;
+
+}
+
+button.doctor{
+    background: white;
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    color:#5c54f5;
+    padding: 10px 15px;
+    font-size:large;
+    font-weight: bold;
+   }
+
+  
+
+   button.account{
+    
+        background: white;
+        margin-top: 20px;
+        border: 2px solid blue;
+        border-radius: 25px;
+        color:#5c54f5;
+        padding: 17px 40px;
+        font-size:large;
+        font-weight: bold;
+        
+   }
+
 
 
 
